@@ -18,7 +18,9 @@ def otherarg(request):
 # def test_0(otherarg):
 #     print ("  用 otherarg %s 运行 test0" % otherarg)
 def test_1(iniFileDemo):
-    print ("  用 modarg %s 运行 test1" % iniFileDemo)
+
+    print("%% %s"%iniFileDemo)
+    # print ("  用 modarg %s 运行 test1" % iniFileDemo)
 # def test_2(otherarg, modarg):
 #     print ("  用 otherarg %s 和 modarg %s 运行 test2" % (otherarg, modarg))
 
@@ -45,5 +47,5 @@ def test_login(login):
 
 if __name__ == '__main__':
     # pytest.main(['-s', '-q', '--alluredir', 'C:/work/Report/report/xml'])
-    pytest.main(['-s','Test_Demo.py'])
+    pytest.main(['-s','test_demo.py'])
     # pytest .main(''- s    test_module.py)

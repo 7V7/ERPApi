@@ -1,0 +1,8 @@
+parameterized==0.7.0
+PyMySQL==0.9.3
+pytest==3.7.1
+allure-pytest==2.5.2
+allure-python-commons==2.5.2
+
+
+

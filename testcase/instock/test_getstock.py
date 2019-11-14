@@ -8,7 +8,7 @@ import requests
 import pytest
 import logging
 import allure
-import config.UrlConfig as config
+import config.urlconfig as config
 
 class TestGetStock(object):
 
@@ -52,4 +52,4 @@ class TestGetStock(object):
 
 if __name__ == '__main__':
     # pytest.main(['-s', '-q', '--alluredir', 'C:/work/Report/report/xml'])
-    pytest.main('-s Test_GetStock.py')
+    pytest.main('-s test_getstock.py')
